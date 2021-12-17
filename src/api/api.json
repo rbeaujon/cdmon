@@ -1,20 +1,59 @@
 {
-    "categories": [
-        {
-            "id": 1,
-            "name": "news"
-        },
-        {
-            "id": 2,
-            "name": "sports"
-        }
+  "locations": [
+    {
+      "id": 1,
+      "location": "Barcelona"
+    },
+    {
+      "id": 2,
+      "location": "Houston"
+    },
+    {
+      "id": 3,
+      "location": "Estonia"
+    }
     ],
-    "post": [
-        {
-            "id": 1,
-            "info": "La ciudad esta colapsada",
-            "categories": 1
-        }
-    ]
+  "server": [
+    {
+      "id": 1,
+      "location": "Barcelona",
+      "system": "Linux"
+    },
+    {
+      "id": 2,
+      "location": "Houston",
+      "system": "Linux"
 
+    },
+    {
+      "id": 3,
+      "location": "Madrid",
+      "system": "Windows"
+
+    },
+    {
+      "id": 1,
+      "location": "Italy",
+      "system": "Linux"
+
+    },
+    {
+      "id": 2,
+      "location": "Panama",
+      "system": "Linux"
+
+    },
+    {
+      "id": 3,
+      "location": "Germany",
+      "system": "Windows"
+
+    },
+    {
+      "id": 1,
+      "location": "Barcelona",
+      "system": "Linux"
+
+    }
+  ]
 }
