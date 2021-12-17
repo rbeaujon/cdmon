@@ -1,0 +1,20 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "news"
+        },
+        {
+            "id": 2,
+            "name": "sports"
+        }
+    ],
+    "post": [
+        {
+            "id": 1,
+            "info": "La ciudad esta colapsada",
+            "categories": 1
+        }
+    ]
+
+}
