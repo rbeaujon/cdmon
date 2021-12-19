@@ -1,4 +1,4 @@
-import { GET_ALL_SERVER, UPDATE_SHOW_SERVER } from './server.actions';
+import { GET_ALL_SERVER, UPDATE_SHOW_API_NODE, UPDATE_SHOW_API_AISTICA} from './server.actions';
 
 export const getinitialState = () => ({
     server: {
@@ -6,7 +6,8 @@ export const getinitialState = () => ({
         location: '',
         system: ''
     },
-    showServer: "hidden"
+    showApiNode: "hidden",
+    showApiAistica: "hidden"
 });
 
 /** @namespace  test/Store/Server/Server/Reducer/serverReducer */
@@ -26,11 +27,17 @@ export const serverReducer = (
             
         }
 
-    case UPDATE_SHOW_SERVER:
+    case UPDATE_SHOW_API_NODE:
         return {
             ...state,
-            showServer: payload.isVisible
+            showApiNode: payload.isVisible
         }
+
+    case UPDATE_SHOW_API_AISTICA:
+        return {
+            ...state,
+            showApiAistica: payload.isVisible
+        }    
 
         // eslint-disable-next-line no-fallthrough
         default:

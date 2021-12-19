@@ -1,5 +1,12 @@
 # Getting Started with Create React App
 
+This a project with FE in REACT REDUX  and BE Nodejs, PHP and MySql that show a list of servers and hosts availables
+in 2 API's located in:
+1.- http://aistica.com created in PHP and mySql
+2.- Under Nodejs that server locally under port 3200.
+
+Project Hosting on https://aistica.com/cdmon/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
